@@ -6,6 +6,9 @@
 # Mengimpor Library yang Diperlukan untuk Dashboard
 import pandas as pd
 import streamlit as st
+import seaborn as sns
+import matplotlib.pyplot as plt
+from babel.numbers import format_currency
 
 # Fungsi untuk Mengelompokkan Data Berdasarkan Kota
 def get_customer_count_by_city(dataframe):
